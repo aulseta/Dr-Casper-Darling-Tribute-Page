@@ -1,0 +1,73 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header, main {
+  margin: 0 auto;
+}
+
+header {
+  max-width: 100%;
+  text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    width: 80%;
+}
+
+.responsive-bg-font {
+  font-size: min(34px, 7vw);
+}
+
+.responsive-sm-font {
+  font-size: min(20px, 5vw); 
+}
+
+
+.responsive-md-font {
+  font-size: min(24px, 6vw);
+}
+
+.responsive-vsm-font {
+  font-size: min(18px, 4vw);
+}
+
+h1 {
+  display: inline-block;
+  padding-bottom: 8px;
+  border-bottom: 5px solid black;
+}
+
+h3 {
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+#image {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+figcaption {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.img-logo {
+display: block;
+max-width: 150px;
+width: 40%;
+margin: 2rem auto;
+}
+
+.divider {
+  border-bottom: 10px solid black;
+}
+
+mark {
+background-color: black;
+user-select: none;
+}
